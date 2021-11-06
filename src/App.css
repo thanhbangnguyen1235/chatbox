@@ -80,12 +80,21 @@
   background-image:url("./city.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-top: 70px;
 }
 
 .chat-title-container {
-  width: calc(100% - 36px);
-  padding: 18px;
+  width: 100%;
+  padding: 5px;
   text-align: center;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
 }
 
 .chat-title {
@@ -163,6 +172,7 @@
   width: calc(100%  );
   padding: 18px;
   background-color: #111111;
+  position: absolute;
 }
 
 .message-form {
