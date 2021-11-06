@@ -8,7 +8,6 @@
 .ce-chat-list {
   background-color: #001f3f !important;
   height: 100vh;
-  overflow: hidden;
 
 }
 
@@ -76,14 +75,11 @@
 /* CUSTOM FEED */
 
 .chat-feed {
-  height: 100%;
   width: 100%;
-  overflow: hidden;
   background-color: rgb(240, 240, 240);
   background-image:url("./city.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .chat-title-container {
@@ -163,7 +159,6 @@
 }
 
 .message-form-container {
-  position: absolute;
   bottom: 0px;
   width: calc(100%  );
   padding: 18px;
@@ -171,7 +166,6 @@
 }
 
 .message-form {
-  overflow: hidden;
   border-radius: 6px;
   border: 1px solid #001f3f;
   background-color: #001f3f;
